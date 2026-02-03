@@ -21,7 +21,7 @@ const mensagensServer = [
   {
     status: 'sucesso',
     mensagem: 'Sucesso',
-    descricao: 'A conexão com o servidor foi estabelecida com sucesso',
+    descricao: 'Você conseguiu acessar a aplicação com sucesso',
     motiv: 'Você está no caminho certo para dominar essa tecnologia!'
   },
   {
@@ -87,6 +87,3 @@ window.onclick = function(event) {
 
 // Event listener do botão
 botaoMensagem.addEventListener('click', carregarMensagem);
-
-// Carregar mensagem automaticamente ao abrir a página
-document.addEventListener('DOMContentLoaded', carregarMensagem);
